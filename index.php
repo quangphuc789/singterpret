@@ -4,6 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>High Fashion Website Template</title>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/util.js"></script>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<!--[if IE 7]>
 		<link rel="stylesheet" href="css/ie7.css" type="text/css">
@@ -44,7 +46,13 @@
 		</div>
 		<table>
 			<tr>
-				
+				<td id='languages'>
+				</td>
+				<td>
+					Welcome to Singterpreter!
+					<br>
+					The Marketplace for Interpreters & Translator
+				</td>
 			</tr>
 		</table>
 	</div>
@@ -69,3 +77,7 @@
 	</div>
 </body>
 </html>
+
+<script type="text/javascript">
+	// display_languages();
+</script>
