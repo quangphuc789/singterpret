@@ -164,6 +164,7 @@ p a:hover {
 /*------------------------- Body ------------------------*/
 .body {
 	padding:0 0 30px;
+	height: 500px;
 	z-index:100;
 }
 .body div {
@@ -641,4 +642,11 @@ p a:hover {
 .footer div ul li a:hover, .footer div .connect a:hover {
 	color:#4b4b4b;
 	text-decoration:none
+}
+
+/*-- Others */
+.main {
+	background-color: #555662;
+	height:600px;
+	border: 1px solid black;
 }

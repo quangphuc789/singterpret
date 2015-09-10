@@ -36,13 +36,17 @@
 				</li>
 			</ul>
 		</div>
-		<div class="featured">
-			<img src="images/bg-absolute.png" alt="">
-			<div>
-				<h3>Less... <br> Is More...</h3>
-				<a href="collections.html">2023 Spring Collection</a>
-			</div>
+	</div>
+
+	<div class="main">
+		<div style="text-align:center">
+			<img src="images/languages.png">
 		</div>
+		<table>
+			<tr>
+				
+			</tr>
+		</table>
 	</div>
 	
 	<div class="footer">
