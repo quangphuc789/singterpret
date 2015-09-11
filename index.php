@@ -3,10 +3,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>High Fashion Website Template</title>
+	<title>Singterpret</title>
 	<script type="text/javascript" src="js/index.js"></script>
 	<script type="text/javascript" src="js/util.js"></script>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!--[if IE 7]>
 		<link rel="stylesheet" href="css/ie7.css" type="text/css">
 	<![endif]-->
@@ -40,18 +42,22 @@
 		</div>
 	</div>
 
-	<div class="main">
+	<div class="main" align="center">
 		<div style="text-align:center">
 			<img src="images/languages.png">
 		</div>
-		<table>
+		<div>
+			Welcome to Singterpret!
+			<br>
+			The Unique Marketplace for Interpreter service
+		</div>
+		<table style="margin:auto;font-family:Cambria;font-size:20px;color:white">
 			<tr>
-				<td id='languages'>
-				</td>
-				<td>
-					Welcome to Singterpreter!
+				<td style='padding:100px'>
+					You are
 					<br>
-					The Marketplace for Interpreters & Translator
+					<button class="btn btn-default">Looking for Interpreters</button>
+					<button class="btn btn-default">Offering your service</button>
 				</td>
 			</tr>
 		</table>
