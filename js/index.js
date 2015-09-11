@@ -9,6 +9,20 @@ function interpreter_login() {
 	// alert('yyy');
 }
 
+function fake_login() {
+	var username = document.getElementById('username').value;
+	var password = document.getElementById('password').value;
+
+	if (username == 'customer1') {
+		window.open('customer.php', '_self');
+	} else if (username.indexOf('interpreter') != -1) {
+		window.open('facebook.com', '_self');
+	} else {
+		var feedback = document.getElementById('login-feedback');
+		feedback.innerHTML = 'Please try again!';
+	}
+}
+
 function display_languages() {
 	var lan_dom = document.getElementById('languages');
 	var lan_div = create_element('div', null, null, '', lan_dom);

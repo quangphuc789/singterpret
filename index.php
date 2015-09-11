@@ -46,10 +46,13 @@
 			<img src="images/languages.png">
 		</div>
 		<div style="font-size:30px;font-family:Cambria;color:white;margin:5px">
-			Welcome to <i>Singterpret</i>
+			Welcome to <img src="images/singterpret.png">
 		</div>
 		<div style="font-size:15px;font-family:Cambria;color:white;margin:5px">
 			Your Marketplace for Freelance Interpreting Services
+		</div>
+		<div style="font-size:15px;font-family:Cambria;color:white;margin:5px">
+			Medical checkups | Tourism | Business | More ..
 		</div>
 		<div style="font-size:15px;font-family:Cambria;color:white">
 			<span class="badge">200,000+</span> Hours of services | <span class="badge">30+</span> Languages | <span class="badge">20+</span> Cities
@@ -60,7 +63,7 @@
 					<button class="btn btn-default" onclick="customer_login()">Looking for Interpreters</button>
 					<ul style="font-size:15px;font-family:Cambria;color:white;padding:20px">
 						<li class="selected">Global wise</li>
-						<li class="selected">Competitive market prices</li>
+						<li class="selected">Competitive & Transparent market prices</li>
 						<li class="selected">Trusted & reviewable information</li>
 						<li class="selected">Attractive discounts!</li>
 					</ul>
@@ -70,7 +73,7 @@
 					<ul style="font-size:15px;font-family:Cambria;color:white;padding:20px">
 						<li class="selected">Freelance on-demand basis</li>
 						<li class="selected">Real-time bidding & fun</li>
-						<li class="selected">Security of payment</li>
+						<li class="selected">Ease of mind for payment</li>
 						<li class="selected">Attractive bonuses!</li>
 					</ul>
 				</td>
@@ -79,22 +82,24 @@
 						<p>Already have an account?</p>
 						<table>
 							<tr>
-								<td style="padding:5px">Username</td>
+								<td style="font-size:14px;padding:8px">Username</td>
 								<td>
-									<input type="text" class="form-control"></input>
+									<input id='username' type="text" class="form-control"></input>
 								</td>
 							</tr>
 							<tr>
-								<td style="padding:5px">Password</td>
+								<td style="font-size:14px;padding-left:8px">Password</td>
 								<td>
-									<input type="text" class="form-control"></input>
+									<input id='password' type="password" class="form-control"></input>
 								</td>
 							</tr>
 							<tr>
 								<td style="padding-top:15px;padding-left:5px">
-									<button class="btn btn-default">
+									<button class="btn btn-default" onclick='fake_login()'>
 										Login
 									</button>
+								</td>
+								<td id="login-feedback" style="font-family:Cambria;font-size:14px;text-align:center">
 								</td>
 							</tr>
 						</table>
