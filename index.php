@@ -7,7 +7,6 @@
 	<script type="text/javascript" src="js/index.js"></script>
 	<script type="text/javascript" src="js/util.js"></script>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!--[if IE 7]>
 		<link rel="stylesheet" href="css/ie7.css" type="text/css">
@@ -46,18 +45,60 @@
 		<div style="text-align:center">
 			<img src="images/languages.png">
 		</div>
-		<div>
-			Welcome to Singterpret!
-			<br>
-			The Unique Marketplace for Interpreter service
+		<div style="font-size:30px;font-family:Cambria;color:white;margin:5px">
+			Welcome to <i>Singterpret</i>
+		</div>
+		<div style="font-size:15px;font-family:Cambria;color:white;margin:5px">
+			Your Marketplace for Freelance Interpreting Services
+		</div>
+		<div style="font-size:15px;font-family:Cambria;color:white">
+			<span class="badge">200,000+</span> Hours of services | <span class="badge">30+</span> Languages | <span class="badge">20+</span> Cities
 		</div>
 		<table style="margin:auto;font-family:Cambria;font-size:20px;color:white">
 			<tr>
-				<td style='padding:100px'>
-					You are
-					<br>
-					<button class="btn btn-default">Looking for Interpreters</button>
-					<button class="btn btn-default">Offering your service</button>
+				<td style='padding:50px'>
+					<button class="btn btn-default" onclick="customer_login()">Looking for Interpreters</button>
+					<ul style="font-size:15px;font-family:Cambria;color:white;padding:20px">
+						<li class="selected">Global wise</li>
+						<li class="selected">Competitive market prices</li>
+						<li class="selected">Trusted & reviewable information</li>
+						<li class="selected">Attractive discounts!</li>
+					</ul>
+				</td>
+				<td style='padding:50px'>
+					<button class="btn btn-default" onclick="interpreter_login()">Offering your service</button>
+					<ul style="font-size:15px;font-family:Cambria;color:white;padding:20px">
+						<li class="selected">Freelance on-demand basis</li>
+						<li class="selected">Real-time bidding & fun</li>
+						<li class="selected">Security of payment</li>
+						<li class="selected">Attractive bonuses!</li>
+					</ul>
+				</td>
+				<td style='padding:50px'>
+					<div style='border:1px solid white;padding:15px;border-radius:5px'>
+						<p>Already have an account?</p>
+						<table>
+							<tr>
+								<td style="padding:5px">Username</td>
+								<td>
+									<input type="text" class="form-control"></input>
+								</td>
+							</tr>
+							<tr>
+								<td style="padding:5px">Password</td>
+								<td>
+									<input type="text" class="form-control"></input>
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-top:15px;padding-left:5px">
+									<button class="btn btn-default">
+										Login
+									</button>
+								</td>
+							</tr>
+						</table>
+					</div>
 				</td>
 			</tr>
 		</table>
@@ -65,9 +106,6 @@
 	
 	<div class="footer">
 		<div>
-			<p>
-				&#169; Singterpret
-			</p>
 			<ul>
 				<li>
 					<a href="#">Privacy Policy</a>

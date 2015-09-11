@@ -1,3 +1,14 @@
+function customer_login() {
+	// alert('xxx');
+	// var dom = document.getElementById('customer');
+	// dom.innerHTML = 'xxx';
+	// var table = create_element('table', null, null, '', dom);
+}
+
+function interpreter_login() {
+	// alert('yyy');
+}
+
 function display_languages() {
 	var lan_dom = document.getElementById('languages');
 	var lan_div = create_element('div', null, null, '', lan_dom);
