@@ -1,0 +1,72 @@
+function fake_add_request() {
+	var country = document.getElementById('country').value;
+	var city = document.getElementById('city').value;
+	var description = document.getElementById('description').value;
+	var language_1 = document.getElementById('language-1').value;
+	var language_2 = document.getElementById('language-2').value;
+	var language_3 = document.getElementById('language-3').value;
+	var from = document.getElementById('from').value;
+	var to = document.getElementById('to').value;
+	var location = document.getElementById('location').value;
+	var vacancy = document.getElementById('number').value;
+
+	var list = document.getElementById('request-list');
+	var num = list.childNodes.length+1;
+
+	var request = create_element('div', 'req-'+num, null, '', list);
+	request.style.border = '1px solid white';
+	request.style.borderRadius = '5px';
+	request.style.marginTop = '5px';
+	var table = create_element('table', null, null, '', request);
+	table.style.width = '100%';
+	var row = create_element('tr', null, null, '', table);
+
+	var id_td = create_element('td', null, null, num, row);
+	id_td.style.width = '10%';
+	id_td.style.color = 'white';
+	id_td.style.fontFamily = 'Cambria';
+	id_td.style.fontSize = '14px';
+	id_td.style.padding = '2px';
+	var desc_td = create_element('td', null, null, description, row);
+	desc_td.style.color = 'white';
+	desc_td.style.fontFamily = 'Cambria';
+	desc_td.style.fontSize = '14px';
+	desc_td.style.padding = '2px';
+	var status = create_element('td', null, null, 'Pending', row);
+	status.style.color = 'white';
+	status.style.fontFamily = 'Cambria';
+	status.style.fontSize = '14px';
+	status.style.width = '20%';
+	status.style.padding = '2px';
+
+	// var info_td = create_element('td', null, null, '', row);	
+	// var info_table = create_element('table', null, null, info_td);
+	// var tr = create_element('tr', null, null, '', info_table);
+	// var ctry_left = create_element('td', null, null, 'Country', tr);
+	// var ctry_right = create_element('td', null, null, country, tr);
+	// var tr = create_element('tr', null, null, '', info_table);
+	// var city_left = create_element('td', null, null, 'City', tr);
+	// var city_right = create_element('td', null, null, city, tr);
+	// var tr = create_element('tr', null, null, '', info_table);
+	// var desc_left = create_element('td', null, null, 'Descp', tr);
+	// var desc_right = create_element('td', null, null, description, tr);
+	// var tr = create_element('tr', null, null, '', info_table);
+	// var lan_1_left = create_element('td', null, null, '#1 Lang', tr);
+	// var lan_1_right = create_element('td', null, null, language_1, tr);
+	// var tr = create_element('tr', null, null, '', info_table);
+	// var lan_2_left = create_element('td', null, null, '#2 Lang', tr);
+	// var lan_2_right = create_element('td', null, null, language_2, tr);
+	// var tr = create_element('tr', null, null, '', info_table);
+	// var from_left = create_element('td', null, null, 'From', tr);
+	// var from_right = create_element('td', null, null, from, tr);
+	// var tr = create_element('tr', null, null, '', info_table);
+	// var to_left = create_element('td', null, null, 'To', tr);
+	// var to_right = create_element('td', null, null, to, tr);
+	// var tr = create_element('tr', null, null, '', info_table);
+	// var location_left = create_element('td', null, null, 'Location', tr);
+	// var location_right = create_element('td', null, null, location, tr);
+	// var tr = create_element('tr', null, null, '', info_table);
+	// var number_left = create_element('td', null, null, 'Vacancy', tr);
+	// var number_right = create_element('td', null, null, vacancy, tr);
+	console.log('sasda');
+}
