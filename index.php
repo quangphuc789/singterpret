@@ -15,7 +15,7 @@
 <body>
 	<div class="header">
 		<div>
-			<a href="index.html" id="logo"><img src="images/singterpret.png" alt="logo"></a>
+			<a href="index.php" id="logo"><img src="images/singterpret.png" alt="logo"></a>
 			<ul>
 				<li class="selected">
 					<a href="index.php">Home</a>
@@ -74,7 +74,7 @@
 						<li class="selected">Freelance on-demand basis</li>
 						<li class="selected">Real-time bidding & fun</li>
 						<li class="selected">Ease of mind for payment</li>
-						<li class="selected">Attractive bonuses!</li>
+						<li class="selected">Monetize your expertise!</li>
 					</ul>
 				</td>
 				<td style='padding:50px'>
